@@ -1,0 +1,34 @@
+# 编译产物
+*.o
+*.obj
+*.out
+a.out
+*.exe
+build/
+bin/
+
+# nvcc / CUDA 中间文件
+*.ptx
+*.cubin
+*.fatbin
+*.i
+*.ii
+
+# profiling 输出(ncu / nsys)
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+*.sqlite
+*.qdstrm
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Claude Code 本地工具配置
+.claude/
