@@ -32,3 +32,6 @@ bin/
 
 # Claude Code 本地工具配置
 .claude/
+
+# 本地 clangd 编译参数(含机器专属绝对路径)
+compile_flags.txt
